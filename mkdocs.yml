@@ -1,0 +1,87 @@
+site_name: Fase 1 - Sistema de Medidas Pessoais
+site_url: https://sitename.example
+theme:
+  name: material
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+  features:
+    - navigation.footer
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: black
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: black
+      accent: deep orange
+
+nav:
+  - Home: index.md
+  - How to Use MkDocs:
+    - Admonitions: how-to-use-docs/admonitions.md
+    - Code Examples: how-to-use-docs/code-examples.md
+    - Content Tabs: how-to-use-docs/content-tabs.md
+    - Diagram Examples: how-to-use-docs/diagram-examples.md
+  - Fase 1 - Slides PPT:
+    - Slide 1 - Capa: slide-01-capa.md
+    - Slide 2 - Tema: slide-02-tema.md
+    - Slide 3 - Requisitos Funcionais: slide-03-requisitos-funcionais.md
+    - Slide 4 - Requisitos (cont.): slide-04-requisitos-continuacao.md
+    - Slide 5 - Requisitos Não Funcionais: slide-05-requisitos-nao-funcionais.md
+    - Slide 6 - User Stories (1/5): slide-06-user-stories-1.md
+    - Slide 7 - User Stories (2/5): slide-07-user-stories-2.md
+    - Slide 8 - User Stories (3/5): slide-08-user-stories-3.md
+    - Slide 9 - User Stories (4/5): slide-09-user-stories-4.md
+    - Slide 10 - User Stories (5/5): slide-10-user-stories-5.md
+    - Slide 11 - EAP: slide-11-eap.md
+    - Slide 12 - Roadmap: slide-12-roadmap.md
+    - Slide 13 - Tecnologias: slide-13-tecnologias.md
+    - Slide 14 - Tecnologias (cont.): slide-14-tecnologias-continuacao.md
+    - Slide 15 - GitHub: slide-15-github.md
+    - Slide 16 - Protótipos Figma: slide-16-prototipos.md
+    - Slide 17 - Modelagem Banco: slide-17-modelagem-banco.md
+    - Slide 18 - Conclusão: slide-18-conclusao.md
+    - Slide 19 - Dificuldades: slide-19-dificuldades-autoavaliacao.md
+    - Slide 20 - Autoavaliação: slide-20-autoavaliacao-final.md
+    - CHECKLIST DE AVALIAÇÃO: slide-21-checklist-avaliacao.md
+
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+
+extra:
+  generator: false
+#   social:
+#     - icon: simple/youtube
+#       link: 
+#     - icon: simple/linkedin
+#       link: 
+
+copyright: Copyright &copy; Team
