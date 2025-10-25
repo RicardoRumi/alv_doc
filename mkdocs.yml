@@ -1,5 +1,6 @@
-site_name: Fase 1 - Sistema de Medidas Pessoais
-site_url: https://sitename.example
+site_name: PUC - Fase 1
+site_url: https://ricardorumi.github.io/alv_doc/
+site_description: PUC project documentation
 theme:
   name: material
   font:
