@@ -2,134 +2,231 @@
 
 ---
 
-## 📊 Diagrama EAP - Formato Compacto e Legível
+## 📋 Copie e Cole no PowerPoint
 
-**O diagrama abaixo renderiza automaticamente no MkDocs!**
+Use o formato abaixo para preencher as caixas do template da PUCRS.
 
-```mermaid
-mindmap
-  root((Sistema de<br/>Medidas Pessoais))
-    1. PLANEJAMENTO
-      1.1 Levantamento
-        US01 Cadastro
-        US02 Login
-        US03 Logout
-        US10 Recuperação
-      1.2 Modelagem
-        Modelagem BD
-        Arquitetura
-      1.3 Prototipação
-        Figma
-        UX/UI Design
-    2. AUTENTICAÇÃO
-      2.1 Backend Auth
-        US01 Cadastro
-        US02 Login
-        US03 Logout
-        US10 Recuperação
-      2.2 Frontend Auth
-        Telas Auth
-        Validações
-    3. GESTÃO MEDIDAS
-      3.1 Backend Medidas
-        US04 Cadastrar
-        US05 Gerar Código
-        US08 Deletar
-        US09 Validação
-      3.2 Frontend Medidas
-        Formulário
-        Dashboard
-        Exibir Código
-    4. CONSULTA PÚBLICA
-      4.1 Backend API
-        US06 Visualizar
-        US07 API REST
-      4.2 Frontend Público
-        Página Consulta
-        Exibir Resultados
-    5. TESTES
-      5.1 Unitários
-        Backend
-        Frontend
-      5.2 Integração
-        API
-        Fluxos
-    6. IMPLANTAÇÃO
-      6.1 Backend
-        Servidor
-        CI/CD
-      6.2 Frontend
-        Deploy
-        DNS
+---
+
+## 🔹 NÍVEL 1 (Caixa Superior)
+
+```
+Sistema de Medidas Pessoais
 ```
 
 ---
 
-## 📋 Estrutura da EAP (4 Níveis)
+## 🔹 NÍVEL 2 (5 Caixas Principais - Segunda Linha)
 
-### Nível 1: Projeto Completo
-- Sistema de Medidas Pessoais
+### Caixa 1:
+```
+1. PLANEJAMENTO
+```
 
-### Nível 2: 6 Módulos Principais
-1. Planejamento
-2. Autenticação
-3. Gestão de Medidas
-4. Consulta Pública
-5. Testes
-6. Implantação
+### Caixa 2:
+```
+2. AUTENTICAÇÃO
+```
 
-### Nível 3: Sub-módulos
-- Cada módulo dividido em componentes Backend/Frontend ou sub-áreas
+### Caixa 3:
+```
+3. GESTÃO DE MEDIDAS
+```
 
-### Nível 4: Pacotes de Trabalho
-- User Stories (US01-US10)
-- Tarefas específicas
-- Entregas concretas
+### Caixa 4:
+```
+4. CONSULTA PÚBLICA
+```
 
----
-
-## ✅ User Stories Incluídas
-
-| US | Descrição | Módulo |
-|----|-----------|--------|
-| US01 | Cadastro de Usuário | Planejamento / Autenticação |
-| US02 | Login de Usuário | Planejamento / Autenticação |
-| US03 | Logout de Usuário | Planejamento / Autenticação |
-| US04 | Cadastrar Medidas | Gestão de Medidas |
-| US05 | Gerar Código de Acesso | Gestão de Medidas |
-| US06 | Visualizar por Código | Consulta Pública |
-| US07 | API de Consulta | Consulta Pública |
-| US08 | Deletar Conta | Gestão de Medidas |
-| US09 | Validação de Dados | Gestão de Medidas |
-| US10 | Recuperação de Senha | Planejamento / Autenticação |
+### Caixa 5:
+```
+5. TESTES E IMPLANTAÇÃO
+```
 
 ---
 
-## 📸 Como Exportar para o PowerPoint
+## 🔹 NÍVEL 3 (Sub-módulos - Terceira Linha)
 
-### Opção 1: Screenshot Direto (Recomendado)
-1. Visualize este slide no MkDocs
-2. Zoom no diagrama para tamanho adequado
-3. Use ferramenta de screenshot (Print Screen)
-4. Cole no PowerPoint Slide 11
+### Abaixo da Caixa 1 - PLANEJAMENTO:
 
-### Opção 2: Mermaid Live (Alta Resolução)
-1. Copie o código Mermaid acima
-2. Acesse: https://mermaid.live/
-3. Cole e renderize
-4. Download PNG/SVG em alta resolução
-5. Insira no PowerPoint
+**Caixa 1.1:**
+```
+1.1 Levantamento
+Requisitos
+```
+
+**Caixa 1.2:**
+```
+1.2 Modelagem
+Banco de Dados
+```
+
+**Caixa 1.3:**
+```
+1.3 Prototipação
+Figma
+```
+
+**Caixa 1.4:**
+```
+1.4 Tecnologias
+Stack Definido
+```
 
 ---
 
-## 💡 Por que Mindmap é Melhor?
+### Abaixo da Caixa 2 - AUTENTICAÇÃO:
 
-✅ **Mais legível** - estrutura radial clara  
-✅ **Mais compacto** - usa menos espaço  
-✅ **Hierarquia visual** - níveis fáceis de identificar  
-✅ **Profissional** - formato usado em gestão de projetos  
-✅ **Todas as US incluídas** - atende 100% dos requisitos  
+**Caixa 2.1:**
+```
+US01
+Cadastro Usuário
+```
+
+**Caixa 2.2:**
+```
+US02
+Login Usuário
+```
+
+**Caixa 2.3:**
+```
+US03
+Logout Usuário
+```
+
+**Caixa 2.4:**
+```
+US10
+Recuperação Senha
+```
 
 ---
 
-*Este formato mindmap é muito mais limpo e fácil de ler no PowerPoint!*
+### Abaixo da Caixa 3 - GESTÃO DE MEDIDAS:
+
+**Caixa 3.1:**
+```
+US04
+Cadastrar Medidas
+```
+
+**Caixa 3.2:**
+```
+US05
+Gerar Código
+```
+
+**Caixa 3.3:**
+```
+US08
+Deletar Conta
+```
+
+**Caixa 3.4:**
+```
+US09
+Validação Dados
+```
+
+---
+
+### Abaixo da Caixa 4 - CONSULTA PÚBLICA:
+
+**Caixa 4.1:**
+```
+US06
+Visualizar Código
+```
+
+**Caixa 4.2:**
+```
+US07
+API REST
+```
+
+**Caixa 4.3:**
+```
+Frontend
+Página Pública
+```
+
+**Caixa 4.4:**
+```
+Backend
+Endpoint API
+```
+
+---
+
+### Abaixo da Caixa 5 - TESTES E IMPLANTAÇÃO:
+
+**Caixa 5.1:**
+```
+Testes
+Unitários
+```
+
+**Caixa 5.2:**
+```
+Testes
+Integração
+```
+
+**Caixa 5.3:**
+```
+Deploy
+Frontend
+```
+
+**Caixa 5.4:**
+```
+Deploy
+Backend
+```
+
+---
+
+## 📊 Resumo da Estrutura
+
+**Total de Níveis:** 3 níveis
+- **Nível 1:** 1 caixa (projeto)
+- **Nível 2:** 5 caixas (módulos principais)
+- **Nível 3:** 20 caixas (4 por módulo = pacotes de trabalho)
+
+---
+
+## ✅ Todas as 10 User Stories Incluídas
+
+- ✅ US01 - Cadastro de Usuário (Autenticação)
+- ✅ US02 - Login de Usuário (Autenticação)
+- ✅ US03 - Logout de Usuário (Autenticação)
+- ✅ US04 - Cadastrar Medidas (Gestão de Medidas)
+- ✅ US05 - Gerar Código (Gestão de Medidas)
+- ✅ US06 - Visualizar por Código (Consulta Pública)
+- ✅ US07 - API de Consulta (Consulta Pública)
+- ✅ US08 - Deletar Conta (Gestão de Medidas)
+- ✅ US09 - Validação de Dados (Gestão de Medidas)
+- ✅ US10 - Recuperação de Senha (Autenticação)
+
+---
+
+## 🎯 Como Usar
+
+1. **Copie o texto** de cada caixa acima
+2. **Cole no template** do PowerPoint (slide com "Escreva aqui")
+3. **Organize visualmente** conforme o template da PUCRS
+4. **Ajuste tamanho da fonte** se necessário
+
+---
+
+## 💡 Dicas
+
+- Use **fonte 10-12** para caber nas caixas
+- **Centralize o texto** em cada caixa
+- Use **negrito** para os códigos das US (US01, US02, etc.)
+- Mantenha **hierarquia visual clara** com as linhas conectoras
+
+---
+
+*Copie e cole o conteúdo de cada caixa diretamente no template!*
