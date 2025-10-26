@@ -29,8 +29,8 @@
 - Fácil deploy e debug
 
 **Estrutura:**
-- Frontend (React)
-- Backend (Node.js/Express) com Controllers, Services, Models, Middlewares
+- Frontend (HTML + JavaScript)
+- Backend (FastAPI) com Routers, Services, Models
 - Database (PostgreSQL)
 
 ---

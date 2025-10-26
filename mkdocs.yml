@@ -1,4 +1,4 @@
-site_name: PUC - Fase 1
+site_name: PUC
 site_url: https://ricardorumi.github.io/alv_doc/
 site_description: PUC project documentation
 theme:
@@ -27,33 +27,80 @@ theme:
 
 nav:
   - Home: index.md
-  - How to Use MkDocs:
-    - Admonitions: how-to-use-docs/admonitions.md
-    - Code Examples: how-to-use-docs/code-examples.md
-    - Content Tabs: how-to-use-docs/content-tabs.md
-    - Diagram Examples: how-to-use-docs/diagram-examples.md
-  - Fase 1 - Slides PPT:
-    - Slide 1 - Capa: slide-01-capa.md
-    - Slide 2 - Tema: slide-02-tema.md
-    - Slide 3 - Requisitos Funcionais: slide-03-requisitos-funcionais.md
-    - Slide 4 - Requisitos (cont.): slide-04-requisitos-continuacao.md
-    - Slide 5 - Requisitos Não Funcionais: slide-05-requisitos-nao-funcionais.md
-    - Slide 6 - User Stories (1/5): slide-06-user-stories-1.md
-    - Slide 7 - User Stories (2/5): slide-07-user-stories-2.md
-    - Slide 8 - User Stories (3/5): slide-08-user-stories-3.md
-    - Slide 9 - User Stories (4/5): slide-09-user-stories-4.md
-    - Slide 10 - User Stories (5/5): slide-10-user-stories-5.md
-    - Slide 11 - EAP: slide-11-eap.md
-    - Slide 12 - Roadmap: slide-12-roadmap.md
-    - Slide 13 - Tecnologias: slide-13-tecnologias.md
-    - Slide 14 - Tecnologias (cont.): slide-14-tecnologias-continuacao.md
-    - Slide 15 - GitHub: slide-15-github.md
-    - Slide 16 - Protótipos Figma: slide-16-prototipos.md
-    - Slide 17 - Modelagem Banco: slide-17-modelagem-banco.md
-    - Slide 18 - Conclusão: slide-18-conclusao.md
-    - Slide 19 - Dificuldades: slide-19-dificuldades-autoavaliacao.md
-    - Slide 20 - Autoavaliação: slide-20-autoavaliacao-final.md
-    - CHECKLIST DE AVALIAÇÃO: slide-21-checklist-avaliacao.md
+  - How to Use Doc:
+    - Admonitions: 0-how-to-use-docs/admonitions.md
+    - Code Examples: 0-how-to-use-docs/code-examples.md
+    - Content Tabs: 0-how-to-use-docs/content-tabs.md
+    - Diagram Examples: 0-how-to-use-docs/diagram-examples.md
+  - Integradora:
+    - Fase 1 - Planejamento:
+      - Slide 1 - Capa: 1-integradora/fase1/slide-01-capa.md
+      - Slide 2 - Tema: 1-integradora/fase1/slide-02-tema.md
+      - Slide 3 - Requisitos Funcionais: 1-integradora/fase1/slide-03-requisitos-funcionais.md
+      - Slide 4 - Requisitos (cont.): 1-integradora/fase1/slide-04-requisitos-continuacao.md
+      - Slide 5 - Requisitos Não Funcionais: 1-integradora/fase1/slide-05-requisitos-nao-funcionais.md
+      - Slide 6 - User Stories (1/5): 1-integradora/fase1/slide-06-user-stories-1.md
+      - Slide 7 - User Stories (2/5): 1-integradora/fase1/slide-07-user-stories-2.md
+      - Slide 8 - User Stories (3/5): 1-integradora/fase1/slide-08-user-stories-3.md
+      - Slide 9 - User Stories (4/5): 1-integradora/fase1/slide-09-user-stories-4.md
+      - Slide 10 - User Stories (5/5): 1-integradora/fase1/slide-10-user-stories-5.md
+      - Slide 11 - EAP: 1-integradora/fase1/slide-11-eap.md
+      - Slide 12 - Roadmap: 1-integradora/fase1/slide-12-roadmap.md
+      - Slide 13 - Tecnologias: 1-integradora/fase1/slide-13-tecnologias.md
+      - Slide 14 - Tecnologias (cont.): 1-integradora/fase1/slide-14-tecnologias-continuacao.md
+      - Slide 15 - GitHub: 1-integradora/fase1/slide-15-github.md
+      - Slide 16 - Protótipos Figma: 1-integradora/fase1/slide-16-prototipos.md
+      - Slide 17 - Modelagem Banco: 1-integradora/fase1/slide-17-modelagem-banco.md
+      - Slide 18 - Conclusão: 1-integradora/fase1/slide-18-conclusao.md
+      - Slide 19 - Dificuldades: 1-integradora/fase1/slide-19-dificuldades-autoavaliacao.md
+      - Slide 20 - Autoavaliação: 1-integradora/fase1/slide-20-autoavaliacao-final.md
+      - CHECKLIST DE AVALIAÇÃO: 1-integradora/fase1/slide-21-checklist-avaliacao.md
+    - Fase 2 - Desenvolvimento:
+      - Slide 1 - Capa: 1-integradora/fase2/slides/slide-01-capa.md
+      - Slide 2 - Resumo: 1-integradora/fase2/slides/slide-02-resumo.md
+      - Slide 3 - Backend: 1-integradora/fase2/slides/slide-03-backend.md
+      - Slide 4 - Frontend: 1-integradora/fase2/slides/slide-04-frontend.md
+      - Slide 5 - Banco de Dados: 1-integradora/fase2/slides/slide-05-banco-dados.md
+      - Slide 6 - User Stories Atualizadas: 1-integradora/fase2/slides/slide-06-user-stories-atualizadas.md
+      - Slide 7 - Roadmap Atualizado: 1-integradora/fase2/slides/slide-07-roadmap-atualizado.md
+      - Slide 8 - Vídeo Pitch: 1-integradora/fase2/slides/slide-08-video-pitch.md
+      - Slide 9 - Artefatos: 1-integradora/fase2/slides/slide-09-artefatos.md
+      - Slide 10 - Conclusão: 1-integradora/fase2/slides/slide-10-conclusao.md
+      - Slide 11 - Autoavaliação: 1-integradora/fase2/slides/slide-11-autoavaliacao.md
+      - Slide 12 - Critérios Avaliação: 1-integradora/fase2/slides/slide-12-criterios-avaliacao.md
+      - Slide 13 - Critérios (cont.): 1-integradora/fase2/slides/slide-13-criterios-continuacao.md
+      - Slide 14 - Agradecimentos: 1-integradora/fase2/slides/slide-14-agradecimentos.md
+      - CHECKLIST DE AVALIAÇÃO: 1-integradora/fase2/checklist-avaliacao.md
+  - DevOps:
+    - Fase 1 - CI e IaC:
+      - Slide 1 - Capa: 2-devops/fase1/slides/slide-01-capa.md
+      - Slide 2 - Descrição do Projeto: 2-devops/fase1/slides/slide-02-descricao-projeto.md
+      - Slide 3 - Objetivos: 2-devops/fase1/slides/slide-03-objetivos.md
+      - Slide 4 - Requisitos: 2-devops/fase1/slides/slide-04-requisitos.md
+      - Slide 5 - Plano CI: 2-devops/fase1/slides/slide-05-plano-ci.md
+      - Slide 6 - Pipeline CI Detalhado: 2-devops/fase1/slides/slide-06-pipeline-ci-detalhado.md
+      - Slide 7 - Especificação Infra: 2-devops/fase1/slides/slide-07-especificacao-infra.md
+      - Slide 8 - Terraform Estrutura: 2-devops/fase1/slides/slide-08-terraform-estrutura.md
+      - Slide 9 - Terraform VPC: 2-devops/fase1/slides/slide-09-terraform-vpc.md
+      - Slide 10 - Terraform EC2: 2-devops/fase1/slides/slide-10-terraform-ec2.md
+      - Slide 11 - Execução Terraform: 2-devops/fase1/slides/slide-11-execucao-terraform.md
+      - Slide 12 - Conclusão: 2-devops/fase1/slides/slide-12-conclusao.md
+      - CHECKLIST DE AVALIAÇÃO: 2-devops/fase1/checklist-avaliacao.md
+    - Fase 2 - CD e Containers:
+      - Slide 1 - Capa: 2-devops/fase2/slides/slide-01-capa.md
+      - Slide 2 - Resumo Fase 2: 2-devops/fase2/slides/slide-02-resumo-fase2.md
+      - Slide 3 - Pipeline CD: 2-devops/fase2/slides/slide-03-pipeline-cd.md
+      - Slide 4 - CD Detalhado: 2-devops/fase2/slides/slide-04-cd-detalhado.md
+      - Slide 5 - Containerização: 2-devops/fase2/slides/slide-05-containerizacao.md
+      - Slide 6 - Orquestração: 2-devops/fase2/slides/slide-06-orquestracao.md
+      - Slide 7 - Scripts Deploy: 2-devops/fase2/slides/slide-07-scripts-deploy.md
+      - Slide 8 - Fluxograma: 2-devops/fase2/slides/slide-08-fluxograma.md
+      - Slide 9 - Demonstração: 2-devops/fase2/slides/slide-09-demonstracao.md
+      - Slide 10 - Análise Resultados: 2-devops/fase2/slides/slide-10-analise-resultados.md
+      - Slide 11 - Melhorias Futuras: 2-devops/fase2/slides/slide-11-melhorias-futuras.md
+      - Slide 12 - Relatório Final: 2-devops/fase2/slides/slide-12-relatorio-final.md
+      - Slide 13 - Conclusão: 2-devops/fase2/slides/slide-13-conclusao.md
+      - CHECKLIST DE AVALIAÇÃO: 2-devops/fase2/checklist-avaliacao.md
 
 
 markdown_extensions:
